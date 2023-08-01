@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'Arno Pro';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Arno Pro Italic'), url('https://example.com/fonts/ArnoPro-Italic.otf') format('opentype');
+}
+body {
+	font-family: 'Arno Pro', serif;
+}
 *{
 	padding: 0;
 	margin: 0;
@@ -19,7 +28,7 @@ header{
 	background: transparent;
 }
 .logo{
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
 	color: white;
 }
@@ -33,6 +42,8 @@ header{
 	font-weight: 600;
 	border-bottom: 2px solid transparent;
 	transition: all .55s ease;
+	font-family: 'Roboto',
+	sans-serif;
 }
 .navlist a:hover{
 	border-bottom: 2px solid white;
@@ -44,6 +55,18 @@ header{
 	cursor: pointer;
 	display: none;
 }
+.logo-image {
+	height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.logo {
+	font-family: 'Arno Pro', serif;
+	font-style: italic;
+}
+
+
 
 .hero{
 	height: 100%;
@@ -74,10 +97,12 @@ section{
 	margin: 0 0 45px;
 }
 .hero-text h4{
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: 600;
 	color: white;
 	margin-bottom: 10px;
+	font-family: 'Arno Pro', serif;
+	font-style: italic;
 }
 .hero-text p{
 	color: white;
