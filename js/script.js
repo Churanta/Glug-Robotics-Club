@@ -31,3 +31,20 @@ window.addEventListener('scroll', () => {
     header.style.background = 'transparent';
   }
 });
+
+
+
+
+
+  // Function to scroll to the bottom of the page
+  function scrollToBottom() {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth'
+    });
+  }
+
+  // Attach the click event listener to the menu icon
+  document.getElementById('menu-icon').addEventListener('click', scrollToBottom);
+
+
