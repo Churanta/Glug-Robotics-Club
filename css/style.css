@@ -226,12 +226,24 @@ section{
 	color: #1E527E 28.53%;
 	transform: translateY(-5px);
 } 
-.scroll-down{
-	position: absolute;
+.scroll-down {
+	position: fixed;
 	bottom: 6%;
 	right: 9%;
+	opacity: 1;
+	/* Add this line to make the button initially visible */
+	visibility: visible;
+	/* Add this line to make the button initially visible */
+	transition: opacity 0.5s, visibility 0.5s;
+	/* Add transition for smooth appearance */
 }
-.scroll-down i{
+
+.scroll-down.hide {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.scroll-down i {
 	display: block;
 	padding: 12px;
 	font-size: 25px;
@@ -240,9 +252,15 @@ section{
 	border-radius: 30px;
 	transition: all .50s ease;
 }
-.scroll-down i:hover{
+
+.scroll-down i:hover {
 	transform: translateY(-5px);
 }
+
+.scroll-down.up i {
+	transform: rotate(180deg);
+}
+
 
 @media (max-width: 1535px){
 	header{
