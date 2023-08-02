@@ -6,6 +6,7 @@
 }
 body {
 	font-family: 'Arno Pro', serif;
+	overflow-x: hidden;
 }
 *{
 	padding: 0;
@@ -72,8 +73,8 @@ header{
 	height: 100%;
 	width: 100%;
 	min-height: 100vh;
-	background: linear-gradient(245.59deg, #1E3A64 0%, #1E527E 28.53%, #0F2C43 75.52%);
-	position: relative;
+background: linear-gradient(245.59deg, #4a82b8 0%, #75a5d3 28.53%, #23689c 75.52%);
+/* position: relative; */
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
@@ -141,6 +142,72 @@ section{
 	vertical-align: middle;
 	margin-right: 5px;
 }
+
+
+/* ----------------Hero Text 2-------------------- */
+
+.hero2 {
+	height: 70vh;
+	/* Adjust the height as needed */
+	width: 100%;
+	background: #e6f7ff;
+	position: relative;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+	padding-top: 5%;
+	/* Adjust the padding-top as needed */
+}
+.hero-text2 h5 {
+	font-size: 14px;
+	font-weight: 400;
+	color: 1E527E;
+	margin-bottom: 40px;
+}
+
+.hero-text2 h1 {
+	font-family: 'Arno Pro',
+	serif;
+	font-style: italic;	
+	font-size: 70px;
+	line-height: 1;
+	color: #1E527E;
+	align-items: center;
+	margin: 0 0 45px;
+}
+
+.hero-text2 h4 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #1E527E;
+	align-items: center;
+	margin-bottom: 10px;
+	font-family: 'Arno Pro', serif;
+	font-style: italic;
+}
+
+.hero-text2 p {
+	color: #1E527E;
+	font-size: 150%;
+	line-height: 1.2;
+	margin-bottom: 40px;
+	font-family: 'Arno Pro',
+	serif;
+	/* font-style: italic; */
+}
+
+
+.hero-text2 h1:nth-of-type(1) {
+	display: block;
+	border-bottom: 3px solid currentColor;
+	width: 50%;
+}
+
+
+
+
+
+
 
 .icons{
 	position: absolute;
@@ -246,7 +313,7 @@ section{
 		position: absolute;
 		top: 100%;
 		right: -100%;
-		width: 300px;
+		width: 100%;
 		height: 40vh;
 		background: #0F2C43;
 		display: flex;
@@ -269,5 +336,63 @@ section{
 	.hero-img img{
 		width: 100%;
 		height: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero2 {
+		grid-template-columns: 1fr;
+		padding: 5% 10%;
+	}
+
+	.hero-img2 img {
+		width: 100%;
+	}
+	.hero-text2 h1 {
+		font-size: 50px;
+	}
+}
+
+
+
+/* ------------------Footer----------------- */
+footer {
+	background-color: #303f4b;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+/* Style for the social media icons */
+.social-icons {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icons li:last-child {
+	margin-right: 0;
+}
+
+.social-icons a {
+	color: #fff;
+	font-size: 20px;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+	.social-icons {
+		display: block;
+		text-align: center;
+	}
+
+	.social-icons li {
+		margin: 10px 5px;
 	}
 }
