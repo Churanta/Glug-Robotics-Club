@@ -95,3 +95,6 @@ function smoothScrollToJoinUs(event) {
 // Add event listener to the link/button that triggers the smooth scroll
 const scrollToJoinUsButton = document.getElementById("scrollToJoinUs");
 scrollToJoinUsButton.addEventListener("click", smoothScrollToJoinUs);
+
+
+

@@ -1,113 +1,140 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Responsive Gaming Website</title>
 
+	<script src="js/aboutus.js"></script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Swiper css  -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 	<!-- Add the FontAwesome CSS link below -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="styles.css">
 
 	<!---custom css link--->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/card.css">
 	<link rel="stylesheet" type="text/css" href="css/joinus.css">
+	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
 
 	<!---boxicons link--->
-	<link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <!---remixicons link--->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<!---remixicons link--->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-    <!---google fonts link--->
-	 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!---google fonts link--->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
 </head>
-<body>
-	
-
-	<header>
-		<div class="header-left">
-			<img src="img/logo_gar.png" alt="Logo" class="logo-image">
-			<a href="#" class="logo">Glug & Robotics Club</a>
-		</div>
-
-		<ul class="navlist">
-			<li><a href="#home" >Home</a></li>
-			<li><a href="#aboutus" >About Us</a></li>
-			<li><a href="#">Technology</a></li>
-			<li>
-				<a href="#">
-					<span class="github-icon"><i class="fab fa-github fa-lg"></i></span>
-					 Github
-				</a>
-				</li>
-
-			<li><a href="#joinus">Join us</a></li>
-			<li><a href="#">Contact us</a></li>
-		</ul>
-
-		<div class="bx bx-menu" id="menu-icon" ></div>
-	</header>
 
 
-	<section class="hero" >
-		<div class="hero-text">
-			<!-- <h5>#2 Trending</h5> -->
-			<h4 id="home"> Welcome to</h4>
-			<h1>Glug and Robotics Club</h1>
-			<a href="#">Join us</a>
-			<a href="#" class="ctaa"><i class="ri-team-fill"></i>Our Team</a>
-		</div>
+<header>
+	<div class="header-left">
+		<img src="img/reva_logo.png" alt="Logo" class="logo-image">
+		<img src="img/logo_gar.png" alt="Logo" class="logo-image">
+		<a href="#" class="logo">Glug & Robotics Club</a>
+	</div>
 
-		<div class="hero-img">
-			<img src="img/img2.png">
-		</div>
+	<ul class="navlist">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#aboutus">About Us</a></li>
+		<li><a href="#technology">Technology</a></li>
+		<li>
+			<a href="#">
+				<span class="github-icon"><i class="fab fa-github fa-lg"></i></span>
+				Github
+			</a>
+		</li>
 
-		
-	</section>
+		<li><a href="#joinus">Join us</a></li>
+		<li><a href="#">Contact us</a></li>
+	</ul>
+
+	<div class="bx bx-menu" id="menu-icon"></div>
+</header>
 
 
+<section class="hero">
+	<div class="hero-text">
+		<!-- <h5>#2 Trending</h5> -->
+		<h4 id="home"> Welcome to</h4>
+		<h1>Glug and Robotics Club</h1>
+		<p class="cse">By School of Computer Science & Engineering</p>
+		<a href="#">Join us</a>
+		<a href="#" class="ctaa"><i class="ri-team-fill"></i>Our Team</a>
+	</div>
 
-	<div class="icons">
-		<a href="#"><i class="ri-instagram-line"></i></a>
-		<a href="#"><i class="ri-youtube-line"></i></a>
-		<a href="#"><i class="ri-dribbble-line"></i></a>
+	<div class="hero-img">
+		<img src="img/img2.png">
 	</div>
 
 
-		<!-- ----------- Abous us -------------- -->
+</section>
 
-		<center>
-		<section class="hero2" id="aboutus">
-			
 
-			
-			<div class="hero-text2" id="aboutus">
-				<h1>About us</h1>
-				<p>
-					Welcome to our open-source club, where students gather to explore and embrace the ever-evolving world of
-					technology. We foster an environment that encourages learning and innovation, empowering students to present their
-					groundbreaking ideas on a global stage.
 
-					At our club, we believe in challenging the status quo. We provide students with a platform to confront the
-					obstacles that come with their innovations. Through hands-on experiences and live industrial projects, our members
-					gain invaluable knowledge and expertise. The journey of learning doesn't stop here - successful completion of
-					projects earns students well-deserved experience certificates and rewards.
+<div class="icons">
+	<a href="#"><i class="ri-instagram-line"></i></a>
+	<a href="#"><i class="ri-youtube-line"></i></a>
+	<a href="#"><i class="ri-dribbble-line"></i></a>
+</div>
 
-				</p>
 
-			</div>
-		</section>
-		</center>
-		<center>
-		<h1 style="font-family: 'Arno Pro',
+<!-- ----------- Abous us -------------- -->
+
+<center>
+	<section class="hero2" id="aboutus">
+
+
+
+		<div class="hero-text2" id="aboutus">
+			<h1>About us</h1>
+			<p>
+				Welcome to our open-source club, where students gather to explore and embrace the ever-evolving world of
+				technology. We foster an environment that encourages learning and innovation, empowering students to
+				present their
+				groundbreaking ideas on a global stage.
+
+				At our club, we believe in challenging the status quo. We provide students with a platform to confront
+				the
+				obstacles that come with their innovations. Through hands-on experiences and live industrial projects,
+				our members
+				gain invaluable knowledge and expertise. The journey of learning doesn't stop here - successful
+				completion of
+				projects earns students well-deserved experience certificates and rewards.
+
+			</p>
+
+		</div>
+	</section>
+</center>
+<center>
+	<h1 style="font-family: 'Arno Pro',
 	serif;
 	font-style: italic;	
-	font-size: 70px;
+	font-size: 300%;
 	line-height: 1;
 	color: #1E527E;
 	align-items: center;
@@ -115,128 +142,222 @@
 	display: block;
 	border-bottom: 3px solid currentColor;
 	width: 50%;
-	padding-top:8%">Technology Stack</h1>
-		</center>
-		<div class="center" >
-			
-			<div class="property-cards-container">
-				<!-- First Card -->
-				<div class="property-card">
-					<div class="property-image" style="background-image: url('img/pic2.jpg');">
-						<div class="property-image-title">
-							<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-						</div>
-					</div>
-					<div class="property-description">
-						<h5>Linux</h5>
-						<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
-						</p>
-					</div>
-					<a href="#">
-						<div class="property-social-icons">
-							<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-						</div>
-					</a>
-				</div>
+	padding-top:8%" id="technology">Technology Stack</h1>
+</center>
+<div class="center">
 
-				
-
-				<!-- Add more cards as needed -->
-				<div class="property-card">
-					<div class="property-image" style="background-image: url('img/pic3.jpg');">
-						<div class="property-image-title">
-							<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-						</div>
-					</div>
-					<div class="property-description">
-						<h5>Robotics</h5>
-						<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
-						</p>
-					</div>
-					<a href="#">
-						<div class="property-social-icons">
-							<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-						</div>
-					</a>
+	<div class="property-cards-container">
+		<!-- First Card -->
+		<div class="property-card">
+			<div class="property-image" style="background-image: url('img/pic2.jpg');">
+				<div class="property-image-title">
+					<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
 				</div>
-				<!-- Second Card -->
-				<div class="property-card">
-					<div class="property-image" style="background-image: url('img/pic1.jpg');">
-						<div class="property-image-title">
-							<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-						</div>
-					</div>
-					<div class="property-description">
-						<h5>AI & ML</h5>
-						<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
-						</p>
-					</div>
-					<a href="#">
-						<div class="property-social-icons">
-							<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-						</div>
-					</a>
-				</div>
-
-				<div class="property-card">
-					<div class="property-image" style="background-image: url('img/img5.jpg');">
-						<div class="property-image-title">
-							<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-						</div>
-					</div>
-					<div class="property-description">
-						<h5>Many More</h5>
-						<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
-						</p>
-					</div>
-					<a href="#">
-						<div class="property-social-icons">
-							<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-						</div>
-					</a>
-				</div>
-				
 			</div>
-		</div>
-		<div class="joinus" >
-			<div class="card" id="joinus">
-				<form>
-					<h2 class="title"> Join us</h2>
-					
-
-					<button class="cta-btn">Student</button>
-					<p class="or"><span>or</span></p>
-					<button class="cta-btn">Professor/Lecturer </button>
-
-					<!-- <p class="or"><span>.</span></p> -->
-
-					
-					</form>
+			<div class="property-description">
+				<h5>Linux</h5>
+				<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
+				</p>
 			</div>
+			<a href="#">
+				<div class="property-social-icons">
+					<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+				</div>
+			</a>
 		</div>
 
 
-	<footer>
-		<ul class="social-icons">
-			<!-- Replace the links with your social media profiles -->
-			<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-		</ul>
-		<p><i>&copy; 2023 GLUG & Robotics club by REVA University. All rights reserved.</i></p>
-	</footer>
 
-	<div class="scroll-down">
-		<a href="#aboutus"><i class="ri-arrow-down-s-fill"></i></a>
+		<!-- Add more cards as needed -->
+		<div class="property-card">
+			<div class="property-image" style="background-image: url('img/pic3.jpg');">
+				<div class="property-image-title">
+					<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+				</div>
+			</div>
+			<div class="property-description">
+				<h5>Robotics</h5>
+				<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
+				</p>
+			</div>
+			<a href="#">
+				<div class="property-social-icons">
+					<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+				</div>
+			</a>
+		</div>
+		<!-- Second Card -->
+		<div class="property-card">
+			<div class="property-image" style="background-image: url('img/pic1.jpg');">
+				<div class="property-image-title">
+					<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+				</div>
+			</div>
+			<div class="property-description">
+				<h5>AI & ML</h5>
+				<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
+				</p>
+			</div>
+			<a href="#">
+				<div class="property-social-icons">
+					<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+				</div>
+			</a>
+		</div>
+
+		<div class="property-card">
+			<div class="property-image" style="background-image: url('img/img5.jpg');">
+				<div class="property-image-title">
+					<!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+				</div>
+			</div>
+			<div class="property-description">
+				<h5>Many More</h5>
+				<p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.
+				</p>
+			</div>
+			<a href="#">
+				<div class="property-social-icons">
+					<!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+				</div>
+			</a>
+		</div>
+
 	</div>
+</div>
+<div class="joinus">
+	<div class="card" id="joinus">
+		<form>
+			<h2 class="title"> Join us</h2>
 
-	<!---scrollreveal effect--->
-	<script src="https://unpkg.com/scrollreveal"></script>
 
-	<!---custom js link--->
-	<script src="js/script.js"></script>
-	<script src="js/card.js"></script>
+			<button class="cta-btn">Student</button>
+			<p class="or"><span>or</span></p>
+			<button class="cta-btn">Professor/Lecturer </button>
+
+			<!-- <p class="or"><span>.</span></p> -->
+
+
+		</form>
+	</div>
+</div>
+
+
+
+<!-- ----------------------------------------Team --------------------------------------------- -->
+<div class="team">
+	<div class="slide-container2 swiper">
+		<div class="slide-content2">
+			<div class="card-wrapper2 swipper-wrapper">
+				<div class="card2 swipper-slide">
+					<div class="image-content2">
+						<span class="overlay2"></span>
+						<div class="card-image2">
+							<img src="img/logo.png" alt="" class="card-img2">
+						</div>
+					</div>
+					<div class="card-content2">
+						<h2 class="name2">Churanta Mondal</h2>
+						<p class="description2">CSE</p>
+
+						<button class="button2">View more</button>
+					</div>
+				</div>
+				<div class="card2 swipper-slide">
+					<div class="image-content2">
+						<span class="overlay2"></span>
+						<div class="card-image2">
+							<img src="img/logo.png" alt="" class="card-img2">
+						</div>
+					</div>
+					<div class="card-content2">
+						<h2 class="name2">Churanta Mondal</h2>
+						<p class="description2">CSE</p>
+
+						<button class="button2">View more</button>
+					</div>
+				</div>
+				<div class="card2 swipper-slide">
+					<div class="image-content2">
+						<span class="overlay2"></span>
+						<div class="card-image2">
+							<img src="img/logo.png" alt="" class="card-img2">
+						</div>
+					</div>
+					<div class="card-content2">
+						<h2 class="name2">Churanta Mondal</h2>
+						<p class="description2">CSE</p>
+
+						<button class="button2">View more</button>
+					</div>
+				</div>
+				
+				<div class="card2 swipper-slide">
+					<div class="image-content2">
+						<span class="overlay2"></span>
+						<div class="card-image2">
+							<img src="img/logo.png" alt="" class="card-img2">
+						</div>
+					</div>
+					<div class="card-content2">
+						<h2 class="name2">Churanta Mondal</h2>
+						<p class="description2">CSE</p>
+
+						<button class="button2">View more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-next swiper-navBtn"></div>
+		<div class="swiper-button-prev swiper-navBtn"></div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+<script>
+	var swiper = new Swiper(".slide-content2", {
+		slidesPerView: 3, // Number of columns you want to display
+		spaceBetween: 30,
+		loop: true,
+		loopFillGroupWithBlank: true,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
+</script>
+
+
+
+<footer>
+	<ul class="social-icons">
+		<!-- Replace the links with your social media profiles -->
+		<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+	</ul>
+	<p><i>&copy; 2023 GLUG & Robotics club by REVA University. All rights reserved.</i></p>
+</footer>
+
+<div class="scroll-down">
+	<a href="#aboutus"><i class="ri-arrow-down-s-fill"></i></a>
+</div>
+
+<!---scrollreveal effect--->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!---custom js link--->
+<script src="js/script.js"></script>
+<script src="js/card.js"></script>
+<script src="js/aboutus.js"></script>
 
 </body>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
 </html>

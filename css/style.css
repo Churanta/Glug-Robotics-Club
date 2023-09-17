@@ -79,6 +79,7 @@ background: linear-gradient(245.59deg, #4a82b8 0%, #75a5d3 28.53%, #23689c 75.52
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	gap: 2rem;
+	padding-top: 5%;
 }
 section{
 	padding: 0 19%;
@@ -104,6 +105,14 @@ section{
 	margin-bottom: 10px;
 	font-family: 'Arno Pro', serif;
 	font-style: italic;
+}
+.cse{
+	font-family: 'Arno Pro',
+	serif;
+	font-style: italic;
+	font-size: 25%;
+	margin-top: -10%;
+	padding-left: 10%;
 }
 .hero-text p{
 	color: white;
@@ -369,6 +378,41 @@ section{
 	.hero-text2 h1 {
 		font-size: 50px;
 	}
+	.hero-text2 {
+		text-align: center;
+		/* Center-align text for smaller screens */
+		padding: 25px;
+		/* Add some padding to improve readability */
+		font-size: 10px;
+	}
+
+	.tech-stack {
+		font-size: 25%;
+		/* Decrease font size for smaller screens */
+		width: 100%;
+		/* Full width for smaller screens */
+		padding-top: 4%;
+		/* Adjust padding for smaller screens */
+		text-align: center;
+		/* Center-align text for smaller screens */
+		margin: 10;
+		/* Remove margin for smaller screens if needed */
+	}
+	.center{
+		padding-top: 200px;
+		
+	}
+	 header {
+	 	padding: 10px;
+	 	/* Adjust padding for smaller screens */
+	 }
+
+	 .logo {
+	 	visibility: hidden;
+	 	/* Decrease font size for smaller screens */
+	 }
+
+
 }
 
 
