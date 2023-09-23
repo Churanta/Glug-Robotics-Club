@@ -1,3 +1,6 @@
+iframe {
+	border: none;
+}
 @font-face {
 	font-family: 'Arno Pro';
 	font-style: italic;
