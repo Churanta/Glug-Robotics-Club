@@ -155,36 +155,7 @@
 
 
 
-                  <!-- -------------------------------Harini------------------------- -->
-
-                  <article class="card__article swiper-slide">
-                     <div class="card__image">
-                        <img src="team/Harini.jpg"
-                           style="overflow: hidden; width: 100%; max-height: 250px; margin-top:-8%;object-fit: cover;"
-                           alt="image" class="card__img">
-                        <div class="card__shadow"></div>
-                     </div>
-
-                     <div class="card__data">
-                        <h3 class="card__name">Harini N Kulkarni</h3>
-                        <p class="card__description">
-                           School of Computer Science & Information Technology
-                        </p>
-                        <a href="https://www.linkedin.com/in/harini-kulkarni-34032b248" target="_blank">
-                           <i class="fab fa-linkedin" style="font-size: 24px; margin-right: 10px;color:#fff"></i>
-                        </a>
-
-                        <a href="https://github.com/Harini2301" target="_blank">
-                           <i class="fab fa-github " style="font-size: 24px; margin-right: 10px;color:#fff"></i>
-                        </a>
-
-
-                        <a href="mailto:harinibtskulkarni@gmail.com">
-                           <i class="fas fa-envelope" style="font-size: 24px;color:#fff"></i>
-                        </a>
-                        <!-- <a href="#" class="card__button">View More</a> -->
-                     </div>
-                  </article>
+                 
 
 
 
@@ -192,7 +163,7 @@
 
                   <article class="card__article swiper-slide">
                      <div class="card__image">
-                        <img src="team/Harini.jpg"
+                        <img src="team/fida.jpg"
                            style="overflow: hidden; width: 100%; max-height: 250px; margin-top:-8%;object-fit: cover;"
                            alt="image" class="card__img">
                         <div class="card__shadow"></div>
@@ -219,6 +190,37 @@
                      </div>
                   </article>
 
+                   <!-- -------------------------------Harini------------------------- -->
+
+                   <article class="card__article swiper-slide">
+                      <div class="card__image">
+                         <img src="team/Harini.jpg"
+                            style="overflow: hidden; width: 100%; max-height: 250px; margin-top:-8%;object-fit: cover;"
+                            alt="image" class="card__img">
+                         <div class="card__shadow"></div>
+                      </div>
+
+                      <div class="card__data">
+                         <h3 class="card__name">Harini N Kulkarni</h3>
+                         <p class="card__description">
+                            School of Computer Science & Information Technology
+                         </p>
+                         <a href="https://www.linkedin.com/in/harini-kulkarni-34032b248" target="_blank">
+                            <i class="fab fa-linkedin" style="font-size: 24px; margin-right: 10px;color:#fff"></i>
+                         </a>
+
+                         <a href="https://github.com/Harini2301" target="_blank">
+                            <i class="fab fa-github " style="font-size: 24px; margin-right: 10px;color:#fff"></i>
+                         </a>
+
+
+                         <a href="mailto:harinibtskulkarni@gmail.com">
+                            <i class="fas fa-envelope" style="font-size: 24px;color:#fff"></i>
+                         </a>
+                         <!-- <a href="#" class="card__button">View More</a> -->
+                      </div>
+                   </article>
+
 
 
                   <!-- --------------------Tejas M-------------------------- -->
@@ -226,7 +228,7 @@
 
                   <article class="card__article swiper-slide">
                      <div class="card__image">
-                        <img src="team/Harini.jpg"
+                        <img src="team/Thejas.jpg"
                            style="overflow: hidden; width: 100%; max-height: 250px; margin-top:-8%;object-fit: cover;"
                            alt="image" class="card__img">
                         <div class="card__shadow"></div>
@@ -278,7 +280,7 @@
    <script>
       document.addEventListener('DOMContentLoaded', function () {
          var swiper = new Swiper('.swiper', {
-            slidesPerView: 3, // Number of slides to show at once
+            slidesPerView: 1,
             spaceBetween: 50,
             loop: true,
             autoplay: {
@@ -291,14 +293,27 @@
             pagination: {
                el: '.swiper-pagination',
                clickable: true,
+               renderBullet: function (index, className) {
+                  // Create a custom bullet for the centered dot
+                  if (index === 1) {
+                     return '<span class="' + className + ' active-dot"></span>';
+                  } else {
+                     return '<span class="' + className + '"></span>';
+                  }
+               },
+            },
+            // Responsive settings
+            breakpoints: {
+               768: {
+                  slidesPerView: 3,
+                  centeredSlides: true, // Center the active slide
+               },
             },
          });
       });
    </script>
-   <style>
 
 
-   </style>
 
 
 </body>

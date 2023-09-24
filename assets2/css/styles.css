@@ -231,7 +231,7 @@ img {
   /* Width of the inactive dots */
   height: 10px;
   /* Height of the inactive dots */
-  background-color: rgba(200, 199, 199, 0.5);
+  background-color: #fff;
   /* Inactive dot color */
   border-radius: 50%;
   opacity: 0.7;
@@ -249,28 +249,29 @@ img {
 
 
 /* Style the centered active dot */
-/* Center the active dot */
 .active-dot {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  /* Transparent background for active dot */
+  width: 20px;
+  /* Width of the centered active dot */
+  height: 20px;
+  /* Height of the centered active dot */
+  background-color: #007bff;
+  /* Active dot color */
+  border-radius: 50%;
+  opacity: 1;
   position: relative;
   transform: scale(1.5);
-  /* Increase the size of the active dot */
   transition: transform 0.3s;
 }
 
 /* Style the centered active dot inner circle */
 .active-dot::before {
   content: '';
-  width: 20px;
+  width: 10px;
   /* Width of the inner circle */
-  height: 20px;
+  height: 10px;
   /* Height of the inner circle */
-  background-color: #007bff;
-  /* Active dot color */
+  background-color: #fff;
+  /* Inner circle color */
   border-radius: 50%;
   opacity: 1;
   position: absolute;
