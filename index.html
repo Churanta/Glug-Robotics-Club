@@ -4,7 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Responsive Gaming Website</title>
+	<title>Glug & Robotics Club</title>
+	<link rel="icon" type="image/png" href="img/logo_gar.png" />
 
 	<script src="js/aboutus.js"></script>
 	<meta charset="UTF-8" />
@@ -60,14 +61,13 @@
 	<ul class="navlist">
 		<li><a href="#">Home</a></li>
 		<li><a href="#aboutus">About Us</a></li>
-		<li><a href="#technology">Technology</a></li>
 		<li>
 			<a href="#">
 				<span class="github-icon"><i class="fab fa-github fa-lg"></i></span>
 				Github
 			</a>
 		</li>
-
+		<li><a href="code-Quest/Codequest.html">Events</a></li>
 		<li><a href="#joinus">Join us</a></li>
 		<li><a href="#teams">Contact us</a></li>
 	</ul>
@@ -237,10 +237,11 @@
 			<h2 class="title"> Join us</h2>
 
 
-			<button class="cta-btn">Student</button>
-			<p class="or"><span>or</span></p>
-			<button class="cta-btn">Professor/Lecturer </button>
-
+			<a class="cta-btn" href="https://forms.office.com/r/dsQTjJjK0s" target="_blank">Student</a>
+			<p class="or"><span>or</span></p> 
+			<a class="cta-btn"
+				href="https://forms.office.com/r/wCsYVrFNvV" target="_blank"
+				target="blank">Professor/Lecturer </a>
 			<!-- <p class="or"><span>.</span></p> -->
 
 
@@ -267,6 +268,21 @@
 <div class="scroll-down">
 	<a href="#teams"><i class="ri-arrow-down-s-fill"></i></a>
 </div>
+
+<script>
+	// Get the button element by its id
+	const redirectButton = document.getElementById('redirectButton');
+
+	// Add a click event listener to the button
+	redirectButton.addEventListener('click', function () {
+		// Define the URL you want to redirect to
+		const redirectURL = 'https://example.com';
+
+		// Redirect to the specified URL
+		window.location.href = redirectURL;
+	});
+</script>
+
 
 <!---scrollreveal effect--->
 <script src="https://unpkg.com/scrollreveal"></script>

@@ -62,8 +62,13 @@ a {
 }
 
 
-
 .cta-btn {
+    display: block;
+    /* Change the display to block */
+    text-align: center;
+    /* Center-align text */
+    text-decoration: none;
+    /* Remove underlines */
     background-color: rgb(69, 69, 185);
     color: white;
     padding: 18px 20px;
@@ -73,6 +78,14 @@ a {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+.cta-student {
+    /* Add any specific styles for the "Student" button here */
+}
+
+.cta-professor {
+    /* Add any specific styles for the "Professor/Lecturer" button here */
 }
 
 .forget-pass {
